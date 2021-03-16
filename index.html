@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> TODO</title>
+    <link rel="stylesheet" href="/src/app.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div>
+                <h1>My favorite food</h1>
+                <header class="sectionName">
+                    <span class="name">Food</span>
+                    <hr>
+                </header>
+                <section class="contentSection">
+                    <form action="" class="inputGroup">
+                        <input type="text" id="foodInput" name="foodInput" placeholder="Add your favorite food:">
+                        <button id="addBtn" hidden>Add</button>
+                    </form>
+                    <ul id="myList">
+                    </ul>
+                </section>
+            </div>
+            <div>
+                <h1>Friend's favorite food</h1>
+                <header class="sectionName">
+                    <span class="name">Food</span>
+                    <hr>
+                </header>
+                <section class="contentSection">
+                    <ul class="friendsList">
+                        <li>Apple</li>
+                        <li>Grilled Meat</li>
+                        <li>Meatballs</li>
+                        <li>Borsch from grandma</l>
+                    </ul>
+                    <span id="complSwitch">make a complaint</span>
+                </section>
+            </div>
+            <form class="complForm">
+                <textarea placeholder="Write your complaint" id="complArea" hidden>
+                </textarea>
+                <button id="complBtn" hidden>Send</button>
+            </form>
+        </div>
+    </main>
+    <script src="/src/app.js"></script>
+</body>
+</html>
